@@ -4,8 +4,8 @@ def my_each(array)# put argument(s) here
     while count > array.length
       yield array |i|
        i = i + 1
-        puts i
     end
+    array
     else
       puts "This block should not run!"
     end  # code here
