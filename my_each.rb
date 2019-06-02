@@ -6,7 +6,7 @@ def my_each(array)# put argument(s) here
        i = i + 1
     end
     array
-    else
-      return "This block should not run!"
-    end  # code here
+  else
+    return "This block should not run!"
+  end  # code here
 end
