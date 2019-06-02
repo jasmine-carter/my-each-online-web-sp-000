@@ -5,8 +5,8 @@ def my_each(array)# put argument(s) here
       array do |i|
         puts i
     end
-    array  
+    array
   else
     puts "This block should not run!"
-end  # code here
+  end  # code here
 end
